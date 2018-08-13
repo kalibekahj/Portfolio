@@ -1,0 +1,33 @@
+a {
+    text-decoration: none;
+}
+a.selected {
+    background: #a8dbdb;
+    padding: 15px;
+}
+a:visited {
+    color: black;
+}
+li {
+    list-style: none;
+}
+ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+div.nav {
+    background-color: #cccccca6;
+}
+.nav li {
+    line-height: 30px;
+    padding: 20px;
+}
+@media screen and (width: "600px") {
+
+}
+@media screen and (width: "1000px") {
+    
+}
+@media screen and (width: "1200px") {
+    
+}
