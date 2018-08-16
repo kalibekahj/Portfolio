@@ -11,8 +11,12 @@
 
 <body>
     <header>
-        <nav>
-           <a href="tester.html"><img src="/Users/kalijahjonesr2h/Downloads/gbb2.png" class="logo" alt="Kalijah's Logo"></a>
+        <nav class="main-nav">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="tester.html">
+                    <img src="/Users/kalijahjonesr2h/Downloads/gbb2.png" class="logo" alt="Kalijah's Logo">
+                </a>
+            </div>
             <ul>
                 <li class="home">
                     <a href="tester.html" class="selected">Home</a>
@@ -33,15 +37,42 @@
                     <a href="testcontact.html">Contact</a>
                 </li>
             </ul>
+            <div class="hamburger">
+                <div class="slice"></div>
+                <div class="slice"></div>
+                <div class="slice"></div>
+            </div>
         </nav>
     </header>
-    <div class="hero-image"> 
-    </div>
+    <nav class="hamburger-nav">
+        <ul class="hamburger-ul">
+            <li>
+                <a href="tester.html" class="selected">Home</a>
+            </li>
+            <li>
+                <a href="testbio.html">Biography</a>
+            </li>
+            <li>
+                <a href="testresume3.html">Resume</a>
+            </li>
+            <li>
+                <a href="testgithub.html">GitHub</a>
+            </li>
+            <li>
+                <a href="testgallery.html">Gallery</a>
+            </li>
+            <li>
+                <a href="testcontact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    </header>
+    <div class="hero-image">
         <div class="hero-text">
             <h1>Kalijah Jones | R2H</h1>
         </div>
     </div>
-    <p> I am a participant in Road to Hire in Tech Cohort 5. Road To Hire is a non-profit organization owned by Red Ventures
+    <p class="hero-p"> I am a participant in Road to Hire in Tech Cohort 5. Road To Hire is a non-profit organization owned by Red Ventures
         to benefit young adults in the technical or sales field. As a tech in R2H, we learn several coding languages.</p>
 
     <footer>
@@ -55,6 +86,7 @@
             <img src="/Users/kalijahjonesr2h/Downloads/Website PIX/roadtohirelogo.png" alt="R2H" height="30px" width="30px">
         </a>
     </footer>
+    <script src="tester.js"></script>
 </body>
 
 </html>

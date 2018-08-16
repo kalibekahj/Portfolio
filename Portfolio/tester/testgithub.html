@@ -10,8 +10,12 @@
 
 <body>
     <header>
-        <nav>
-            <a href="tester.html"><img src="/Users/kalijahjonesr2h/Downloads/gbb2.png" class="logo" alt="Kalijah's Logo"></a>
+        <nav class="main-nav">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="tester.html">
+                    <img src="/Users/kalijahjonesr2h/Downloads/gbb2.png" class="logo" alt="Kalijah's Logo">
+                </a>
+            </div>
             <ul>
                 <li class="home">
                     <a href="tester.html">Home</a>
@@ -32,14 +36,44 @@
                     <a href="testcontact.html">Contact</a>
                 </li>
             </ul>
+            <div class="hamburger">
+                <div class="slice"></div>
+                <div class="slice"></div>
+                <div class="slice"></div>
+            </div>
         </nav>
     </header>
+    <nav class="hamburger-nav">
+        <ul class="hamburger-ul">
+            <li>
+                <a href="tester.html">Home</a>
+            </li>
+            <li>
+                <a href="testbio.html">Biography</a>
+            </li>
+            <li>
+                <a href="testresume3.html">Resume</a>
+            </li>
+            <li>
+                <a href="testgithub.html" class="selected">GitHub</a>
+            </li>
+            <li>
+                <a href="testgallery.html">Gallery</a>
+            </li>
+            <li>
+                <a href="testcontact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    </header>
     <h2>GitHub</h2>
-        <img src="/Users/kalijahjonesr2h/Desktop/Screen Shot 2018-08-09 at 2.53.09 PM.png" class="GHW" alt="GitHub Website">
-        <p>
-            Here is a website assignment that I had to work on during the Road to Hire Gateway Program. This is a screenshot of the first page. <br> <br>
-            <a href="https://kalibekahj.github.io/GatewayProject/">Visit The GitHub Website Assignment</a>
-        </p>
+    <img src="/Users/kalijahjonesr2h/Desktop/Screen Shot 2018-08-09 at 2.53.09 PM.png" class="GHW" alt="GitHub Website Image">
+    <p class="github-p">
+        Here is a website assignment that I had to work on during the Road to Hire Gateway Program. This is a screenshot of the first
+        page.
+    </p>
+        <a class="github-a" href="https://kalibekahj.github.io/GatewayProject/">Visit The GitHub Website Assignment</a>
+  
     <footer>
         Copyright&copy;
         <!-- Add font awesome icons -->
@@ -51,7 +85,7 @@
             <img src="/Users/kalijahjonesr2h/Downloads/Website PIX/roadtohirelogo.png" alt="R2H" height="30px" width="30px">
         </a>
     </footer>
-
+    <script src="tester.js"></script>
 </body>
 
 </html>
